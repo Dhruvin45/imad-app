@@ -3,7 +3,8 @@ var morgan = require('morgan');
 var path = require('path');
 
 
-var articleOne = {
+var articles = {
+     articleOne = {
     title: 'Artical 1  ! Dhruvin Soni',
     heading: ' Artical one',
     date: 'February 2, 2018',
@@ -18,7 +19,40 @@ var articleOne = {
                   This is the content of my first artical.
                    This is the content of my first artical.
             </p>`
-}
+},
+var articleTwo = {
+     title: 'Artical 2  ! Dhruvin Soni',
+    heading: ' Artical Two',
+    date: 'February 2, 2018',
+    content:`  <p>
+                This is the content of my first artical This is the content of my first artical. This is the content of my first artical.
+            </p>
+            <p>
+                 This is the content of my first artical. This is the content of my first artical. This is the content of my first artical.
+            </p>
+            <p>
+                 This is the content of my first artical.
+                  This is the content of my first artical.
+                   This is the content of my first artical.
+            </p>`
+},
+var articleThree = {
+     title: 'Artical 3  ! Dhruvin Soni',
+    heading: ' Artical Three',
+    date: 'February 2, 2018',
+    content:`  <p>
+                This is the content of my first artical This is the content of my first artical. This is the content of my first artical.
+            </p>
+            <p>
+                 This is the content of my first artical. This is the content of my first artical. This is the content of my first artical.
+            </p>
+            <p>
+                 This is the content of my first artical.
+                  This is the content of my first artical.
+                   This is the content of my first artical.
+            </p>`
+},
+};
 function createTemplate(data){
     
 var title = data.title;
